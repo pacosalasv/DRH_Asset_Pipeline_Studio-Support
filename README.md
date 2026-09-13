@@ -31,7 +31,7 @@
 
 **DRH - Asset Pipeline Studio** helps Blender users import, export, validate, inspect, report, and batch-process 3D assets across supported file formats and production workflows.
 
-This repository is the central public hub for support, documentation, issue tracking, compatibility feedback, and compatibility feedback and future development updates while active development is on hold.
+This repository is the central public hub for support, documentation, issue tracking, compatibility feedback and future development updates while active development is on hold.
 
 </div>
 
@@ -86,7 +86,7 @@ If **DRH - Asset Pipeline Studio** helps you work faster or makes your Blender w
 
 **DRH - Asset Pipeline Studio** is a Blender import/export and pipeline utility designed to help users move, validate, inspect, and prepare assets across many production formats.
 
-It is intended for technical artists, asset creators, game artists, environment artists, marketplace creators, CAD/ArchViz users, Blendkit creators, pipeline-focused users, and small teams that need cleaner asset handoff, repeatable export setup, local file scanning, batch-oriented exchange, and format-aware validation.
+It is intended for technical artists, asset creators, game artists, environment artists, marketplace creators, CAD/ArchViz users, BlendKit creators, pipeline-focused users, and small teams that need cleaner asset handoff, repeatable export setup, local file scanning, batch-oriented exchange, and format-aware validation.
 
 Instead of manually managing transfers across folders, formats, naming conventions, scene cleanup steps, validation checks, and delivery requirements, DRH - Asset Pipeline Studio centralizes the process inside Blender with dedicated import/export modes, pipeline presets, runtime-aware format handling, and local reporting tools.
 
@@ -98,35 +98,6 @@ Instead of manually managing transfers across folders, formats, naming conventio
 </div>
 -->
 
-<!--
-
----
-
-### Demo video
-
-Replace `YOUTUBE_VIDEO_ID` with your real YouTube video ID.
-
-Example:
-https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID" target="_blank">
-    <img width="720" alt="DRH - Asset Pipeline Studio demo video" src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg" />
-  </a>
-  <br>
-  <sub>Click the image to watch the demo on YouTube.</sub>
-</div>
--->
-
-<!--
-### Quick demo GIF
-
-Recommended size: 1280x720 or 960x540.
-
-<div align="center">
-  <img width="720" alt="DRH - Asset Pipeline Studio quick demo" src="docs/media/asset-pipeline-studio-demo.gif" />
-</div>
--->
 
 ### Screenshots
 
@@ -410,7 +381,7 @@ DRH - Asset Pipeline Studio is designed for:
 - Pipeline-focused users
 - ArchViz and CAD exchange users
 - Marketplace asset creators
-- Blendkit creators
+- BlendKit creators
 - Small teams and solo creators
 - Users managing repeated import/export tasks
 - Users preparing asset packs, libraries, or deliverables

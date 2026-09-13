@@ -1,0 +1,17 @@
+{
+  "description": "Support and documentation for DRH - Asset Pipeline Studio: multi-format import/export, validation, reporting, and asset workflow feedback.",
+  "homepage": "https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support",
+  "visibility": "public",
+  "has_issues": true,
+  "has_discussions": true,
+  "topics": [
+    "blender",
+    "blender-addon",
+    "asset-pipeline",
+    "3d-assets",
+    "import-export",
+    "validation",
+    "technical-support",
+    "drh"
+  ]
+}
