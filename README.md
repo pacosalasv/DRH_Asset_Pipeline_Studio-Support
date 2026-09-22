@@ -8,9 +8,9 @@
 
 # DRH - Asset Pipeline Studio
 
-### Public Support Hub · Documentation · Feedback · Development On-Hold
+### Support · Documentation · Feedback · Development On-Hold
 
-**Import, export, auto-fix, validate, and batch-deliver multi-format 3D assets in Blender.**
+Import, export, auto-fix, validate, and batch-deliver multi-format 3D assets in Blender.
 
 ![Status](https://img.shields.io/badge/status-In%20Development%20%5BOn-Hold%5D-7C3AED?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-00B7FF?style=for-the-badge)
@@ -19,7 +19,7 @@
 
 <br>
 
-**Part of the DRH Add-ons ecosystem - Blender tools, updates, and releases.**
+DRH Blender Tools: support, documentation, and release information.
 
 [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
@@ -29,62 +29,17 @@
 
 <div align="center">
 
-**DRH - Asset Pipeline Studio** helps Blender users import, export, validate, inspect, report, and batch-process 3D assets across supported file formats and production workflows.
+DRH - Asset Pipeline Studio helps Blender users import, export, validate, inspect, report, and batch-process 3D assets across supported file formats and production workflows.
 
-This repository is the central public hub for support, documentation, issue tracking, compatibility feedback and future development updates while active development is on hold.
-
-</div>
-
----
-
-## Support DRH Development
-
-If **DRH - Asset Pipeline Studio** helps you work faster or makes your Blender workflow more reliable, you can support ongoing DRH development on **Ko-fi**. Your contribution helps fund maintenance, Blender compatibility updates, documentation, testing, and the development of new production-focused tools across the DRH ecosystem. Support is completely optional, and bug reports, compatibility feedback, and workflow suggestions are always welcome.
-
-<div align="center">
-  <a href="https://ko-fi.com/pacosalasv">
-    <img width="520" alt="Donate on Ko-fi to support DRH" src="docs/media/kofi_donate.png" />
-  </a>
-</div>
-
-<div align="center">
-
-[**Support DRH on Ko-fi**](https://ko-fi.com/pacosalasv)
+This repository tracks documentation, support, compatibility reports, and development notes while active development is on hold.
 
 </div>
-
----
-
-<details>
-  <summary><strong>📚 Table of Contents</strong></summary>
-
-## Menu
-
-- [Overview](#overview)
-- [Media preview](#media-preview)
-- [What DRH - Asset Pipeline Studio does](#what-drh---asset-pipeline-studio-does)
-- [Supported formats](#supported-formats)
-- [Key features](#key-features)
-- [Full feature list](#full-feature-list)
-- [Who is it for?](#who-is-it-for)
-- [Current status](#current-status)
-- [Feedback and compatibility reports](#feedback-and-compatibility-reports)
-- [Quick links](#quick-links)
-- [Before you post](#before-you-post)
-- [Where to post](#where-to-post)
-- [Support policy](#support-policy)
-- [Technical notes](#technical-notes)
-- [Availability](#availability)
-- [Documentation](#documentation)
-- [LICENSE](#LICENSE)
-
-</details>
 
 ---
 
 ## Overview
 
-**DRH - Asset Pipeline Studio** is a Blender import/export and pipeline utility designed to help users move, validate, inspect, and prepare assets across many production formats.
+DRH - Asset Pipeline Studio is a Blender import/export and pipeline utility designed to help users move, validate, inspect, and prepare assets across many production formats.
 
 It is intended for technical artists, asset creators, game artists, environment artists, marketplace creators, CAD/ArchViz users, BlendKit creators, pipeline-focused users, and small teams that need cleaner asset handoff, repeatable export setup, local file scanning, batch-oriented exchange, and format-aware validation.
 
@@ -97,7 +52,6 @@ Instead of manually managing transfers across folders, formats, naming conventio
   <img width="920" alt="DRH - Asset Pipeline Studio feature preview" src="docs/media/Featured_Image.png" />
 </div>
 -->
-
 
 ### Screenshots
 
@@ -133,20 +87,22 @@ It is not only a simple import/export shortcut. It is designed as a workflow hel
 
 Use it to:
 
-- Import assets using supported file formats
-- Export assets using supported file formats
-- Prepare assets for cross-format workflows
-- Validate assets before handoff, packaging, or marketplace delivery
-- Inspect scene, object, material, texture, and file-related data
-- Build local sanity checker reports for QA review
-- Batch-export enabled formats from one workflow
-- Scan source directories and build import queues
-- Filter supported files and optionally include subfolders
-- Route imported files into current, scene, per-file, or custom collections
-- Use pipeline presets for common delivery workflows
-- Reduce repetitive manual import/export preparation
-- Support more consistent asset transfer between tools or environments
-- Improve pipeline clarity for asset creators and technical users
+| Details |
+|---|
+| Import assets using supported file formats |
+| Export assets using supported file formats |
+| Prepare assets for cross-format workflows |
+| Validate assets before handoff, packaging, or marketplace delivery |
+| Inspect scene, object, material, texture, and file-related data |
+| Build local sanity checker reports for QA review |
+| Batch-export enabled formats from one workflow |
+| Scan source directories and build import queues |
+| Filter supported files and optionally include subfolders |
+| Route imported files into current, scene, per-file, or custom collections |
+| Use pipeline presets for common delivery workflows |
+| Reduce repetitive manual import/export preparation |
+| Support more consistent asset transfer between tools or environments |
+| Improve pipeline clarity for asset creators and technical users |
 
 ---
 
@@ -229,53 +185,57 @@ Format availability may depend on Blender version, enabled Blender operators, pa
 
 ### Format support notes
 
-- Export and import format availability may depend on Blender version, installed or bundled dependencies, operating system, Python ABI, or format-specific requirements.
-- Some formats are import-only in the current package.
-- Some formats are export-capable and import-capable.
-- SketchUp import is packaged for Windows x64 in this release.
-- Rhinoceros 3DM import depends on a compatible bundled `rhino3dm` wheel for the active Blender Python build and platform.
-- Unsupported runtime paths are designed to fail closed with clear availability messages instead of exposing broken import/export actions.
-- Format-specific behavior should be tested with real production files before marketplace release.
-- Pipeline presets may enable different format combinations depending on the selected delivery workflow.
+| Details |
+|---|
+| Export and import format availability may depend on Blender version, installed or bundled dependencies, operating system, Python ABI, or format-specific requirements |
+| Some formats are import-only in the current package |
+| Some formats are export-capable and import-capable |
+| SketchUp import is packaged for Windows x64 in this release |
+| Rhinoceros 3DM import depends on a compatible bundled `rhino3dm` wheel for the active Blender Python build and platform |
+| Unsupported runtime paths are designed to fail closed with clear availability messages instead of exposing broken import/export actions |
+| Format-specific behavior should be tested with real production files before marketplace release |
+| Pipeline presets may enable different format combinations depending on the selected delivery workflow |
 
 ---
 
-## Key features
+## Capabilities
 
-- Multi-format 3D import and export from one production panel
-- Export and import modes in Blender’s 3D View sidebar
-- File menu import/export entries for supported formats
-- Pipeline presets for 3D Print, ArchViz, General Delivery, Godot, glTF Web, Marketplace, OBJ General, Unreal Engine, and Unity delivery
-- Batch export workflow for enabled formats
-- Directory-based import workflow with source folder scanning and supported-file filtering
-- Import queue with refresh, toggle, clear, and import-checked actions
-- Optional subfolder scanning for import workflows
-- Collection routing to current collection, scene collection, per-file collections, or custom collection
-- Export sanity checker and local report generation
-- Asset inspection and round-trip-oriented review states
-- Scene, object, material, texture, and delivery-oriented validation checks
-- Runtime-aware format availability handling
-- Local-only workflow with no external service or account requirement for normal operation
+| Details |
+|---|
+| Multi-format 3D import and export from one production panel |
+| Export and import modes in Blender’s 3D View sidebar |
+| File menu import/export entries for supported formats |
+| Pipeline presets for 3D Print, ArchViz, General Delivery, Godot, glTF Web, Marketplace, OBJ General, Unreal Engine, and Unity delivery |
+| Batch export workflow for enabled formats |
+| Directory-based import workflow with source folder scanning and supported-file filtering |
+| Import queue with refresh, toggle, clear, and import-checked actions |
+| Optional subfolder scanning for import workflows |
+| Collection routing to current collection, scene collection, per-file collections, or custom collection |
+| Export sanity checker and local report generation |
+| Asset inspection and round-trip-oriented review states |
+| Scene, object, material, texture, and delivery-oriented validation checks |
+| Runtime-aware format availability handling |
+| Local-only workflow with no external service or account requirement for normal operation |
 
 ---
 
 <details>
-  <summary><strong>🧩 Full feature list</strong></summary>
+  <summary>Feature reference</summary>
 
-## Full feature list
+## Feature reference
 
-### Multi-Format Pipeline
+### Multi-format pipeline
+| Details |
+|---|
+| Unified import and export workflow |
+| Format-aware asset pipeline |
+| Local file-based processing |
+| Format-specific availability handling |
+| Runtime messages for unsupported formats or unavailable operators |
+| Import/export menu integration |
+| 3D View sidebar workflow panel |
 
-- Unified import and export workflow
-- Format-aware asset pipeline
-- Local file-based processing
-- Format-specific availability handling
-- Runtime messages for unsupported formats or unavailable operators
-- Import/export menu integration
-- 3D View sidebar workflow panel
-
-### Supported Formats
-
+### Supported formats
 | Content Creation & Exchange | Game Engine & Animation Pipelines | CAD, Design & Fabrication | Specialized Data Formats |
 |---|---|---|---|
 | - FBX | - Unreal PSK / PSKX | - Autodesk MAX | - OpenVDB |
@@ -286,285 +246,136 @@ Format availability may depend on Blender version, enabled Blender operators, pa
 | - PLY |  | - SKP | - 3DXML |
 |  |  | - 3DM | - 3MF |
 
-### Export Workflow
+### Export workflow
+| Details |
+|---|
+| Output directory selection |
+| Enabled format selection |
+| Active export format switching |
+| Batch export for enabled formats |
+| Format-specific export option panels |
+| Transform and scale controls |
+| Selection-based export where supported |
+| Animation-aware export options where supported |
+| Path and file naming handling |
+| Unique path handling for export outputs |
+| Cleanup and transform controls for supported formats |
 
-- Output directory selection
-- Enabled format selection
-- Active export format switching
-- Batch export for enabled formats
-- Format-specific export option panels
-- Transform and scale controls
-- Selection-based export where supported
-- Animation-aware export options where supported
-- Path and file naming handling
-- Unique path handling for export outputs
-- Cleanup and transform controls for supported formats
+### Import workflow
+| Details |
+|---|
+| Source directory selection |
+| Refresh import file list |
+| Toggle checked files |
+| Clear file list |
+| Import checked files |
+| Supported-format filtering |
+| Include subfolders option |
+| Import queue workflow |
+| Format-specific import option panels |
+| Native import fallback flow where available |
+| Collection routing to current collection |
+| Collection routing to scene collection |
+| Collection routing per file |
+| Collection routing to a custom collection |
+| Manual import inspector option in preferences |
 
-### Import Workflow
+### Pipeline presets
+| Details |
+|---|
+| 3D Print preset |
+| ArchViz Exchange preset |
+| General Delivery preset |
+| Godot preset |
+| glTF Web preset |
+| Marketplace preset |
+| OBJ General preset |
+| Unreal Engine preset |
+| Unity preset |
+| Auto-apply preset workflow |
+| Sync sanity profile |
+| Sync enabled formats |
+| Sync import workflow |
 
-- Source directory selection
-- Refresh import file list
-- Toggle checked files
-- Clear file list
-- Import checked files
-- Supported-format filtering
-- Include subfolders option
-- Import queue workflow
-- Format-specific import option panels
-- Native import fallback flow where available
-- Collection routing to current collection
-- Collection routing to scene collection
-- Collection routing per file
-- Collection routing to a custom collection
-- Manual import inspector option in preferences
+### Validation and inspection
+| Details |
+|---|
+| Export sanity checker workflow |
+| Inspector report summary |
+| Scene metrics review |
+| Object metrics review |
+| Material metrics review |
+| Texture metrics review |
+| Delivery-oriented sanity profiles |
+| Round-trip status states: Pass, Warn, Fail, None |
+| Local QA/report output |
+| Findings with severity, category, object, message, fixability, fix ID, and details |
 
-### Pipeline Presets
+### Batch and handoff
+| Details |
+|---|
+| Batch export workflow |
+| Repeated handoff preparation |
+| Marketplace delivery preparation |
+| Asset-library preparation |
+| Client delivery cleanup workflow |
+| Format-specific delivery preparation |
+| Local path and folder-based exchange |
 
-- 3D Print preset
-- ArchViz Exchange preset
-- General Delivery preset
-- Godot preset
-- glTF Web preset
-- Marketplace preset
-- OBJ General preset
-- Unreal Engine preset
-- Unity preset
-- Auto-apply preset workflow
-- Sync sanity profile
-- Sync enabled formats
-- Sync import workflow
-
-### Validation & Inspection
-
-- Export sanity checker workflow
-- Inspector report summary
-- Scene metrics review
-- Object metrics review
-- Material metrics review
-- Texture metrics review
-- Delivery-oriented sanity profiles
-- Round-trip status states: Pass, Warn, Fail, None
-- Local QA/report output
-- Findings with severity, category, object, message, fixability, fix ID, and details
-
-### Batch & Handoff
-
-- Batch export workflow
-- Repeated handoff preparation
-- Marketplace delivery preparation
-- Asset-library preparation
-- Client delivery cleanup workflow
-- Format-specific delivery preparation
-- Local path and folder-based exchange
-
-### Package and Runtime
-
-- Source-based Blender extension package
-- Blender 4.2+ minimum
-- Windows x64 package declaration
-- Bundled Rhino wheel files for compatible Windows Blender Python builds
-- Bundled SketchUp native components for Windows x64 package support
-- Clear runtime messages when a format is not available in the current build or platform
+### Package and runtime
+| Details |
+|---|
+| Source-based Blender extension package |
+| Blender 4.2+ minimum |
+| Windows x64 package declaration |
+| Bundled Rhino wheel files for compatible Windows Blender Python builds |
+| Bundled SketchUp native components for Windows x64 package support |
+| Clear runtime messages when a format is not available in the current build or platform |
 
 </details>
 
 ---
 
-## Who is it for?
+## Intended users
 
 DRH - Asset Pipeline Studio is designed for:
 
-- Technical artists
-- Blender asset creators
-- Game artists
-- Environment artists
-- Pipeline-focused users
-- ArchViz and CAD exchange users
-- Marketplace asset creators
-- BlendKit creators
-- Small teams and solo creators
-- Users managing repeated import/export tasks
-- Users preparing asset packs, libraries, or deliverables
-- Users working with format-based asset pipelines
-- Users who need cleaner asset transfer, validation, inspection, and handoff workflows
+| Details |
+|---|
+| Technical artists |
+| Blender asset creators |
+| Game artists |
+| Environment artists |
+| Pipeline-focused users |
+| ArchViz and CAD exchange users |
+| Marketplace asset creators |
+| BlendKit creators |
+| Small teams and solo creators |
+| Users managing repeated import/export tasks |
+| Users preparing asset packs, libraries, or deliverables |
+| Users working with format-based asset pipelines |
+| Users who need cleaner asset transfer, validation, inspection, and handoff workflows |
 
 ---
 
-## Current status
+## Status
 
 | Item | Details |
 |---|---|
-| **Status** | 🟣 In Development [On-Hold] |
-| **Current version** | 1.0.0 |
-| **Add-on name** | DRH - Asset Pipeline Studio |
-| **Extension ID** | `drh_asset_pipeline_studio` |
-| **Minimum Blender version** | 4.2.0 |
-| **Platforms** | Windows x64 |
-| **Type** | Blender add-on |
-| **Category / Tags** | Import-Export, Pipeline |
-| **Maintainer** | Paco Salas \| DRH |
-| **LICENSE** | GPL-3.0-or-later |
-| **Release type** | In development before public marketplace release |
-| **Support repository** | [DRH Asset Pipeline Studio Support](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support) |
+| Status | 🟣 In Development [On-Hold] |
+| Current version | 1.0.0 |
+| Add-on name | DRH - Asset Pipeline Studio |
+| Extension ID | `drh_asset_pipeline_studio` |
+| Minimum Blender version | 4.2.0 |
+| Platforms | Windows x64 |
+| Type | Blender add-on |
+| Category / Tags | Import-Export, Pipeline |
+| Maintainer | Paco Salas \| DRH |
+| License | GPL-3.0-or-later |
+| Release type | In development before public marketplace release |
+| Support repository | [DRH Asset Pipeline Studio Support](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support) |
 
 This add-on is currently in development. Compatibility feedback, usability comments, feature expectations, and workflow suggestions are welcome before public release.
-
----
-
-## Feedback and compatibility reports
-
-This repository is open for public feedback before marketplace release.
-
-Feedback is especially welcome on:
-
-- Feature usefulness
-- Supported import formats
-- Supported export formats
-- Format-specific workflow expectations
-- Format validation requirements
-- Import workflow expectations
-- Export workflow expectations
-- Batch-processing workflow needs
-- Export sanity checker expectations
-- Local report requirements
-- Asset validation needs
-- Local file handling expectations
-- Path-based workflow requirements
-- Pipeline preset ideas
-- Marketplace or asset library preparation needs
-- Pipeline and handoff requirements
-- Compatibility concerns
-- Installation experience
-- Documentation clarity
-- Expected pricing
-- Marketplace expectations
-
-Useful feedback examples:
-
-> “I need `.fbx`, `.obj`, and `.glb` export for game-ready assets.”
-
-> “I need `.3dm`, `.skp`, and `.3ds` import for architecture-related workflows.”
-
-> “This should validate missing textures before export.”
-
-> “I need batch export options for multiple assets and formats.”
-
-> “This would be useful if it helps organize marketplace-ready asset packages.”
-
-> “The workflow should clearly show which formats are supported for import and export.”
-
-> “Format-specific presets would make this more useful for game engines and asset stores.”
-
-> “I need clear runtime messages when a format is unavailable on my operating system or Blender build.”
-
----
-
-## Quick links
-
-- [Support repository](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support)
-- [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/discussions)
-- [Open a new issue](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new/choose)
-- [Report a bug](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new?template=bug_report.yml)
-- [Request a feature](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new?template=feature_request.yml)
-- [Report a compatibility issue](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new?template=compatibility_issue.yml)
-
----
-
-## Before you post
-
-Please include as much of the following information as possible:
-
-- Add-on version
-- Blender version
-- Operating system
-- Blender Python version, if known
-- Installation method
-- Clear steps to reproduce
-- Expected result
-- Actual result
-- Error message, screenshot, or console output when available
-
-For compatibility issues, please also include:
-
-- Blender build type, if known
-- Portable or installed Blender version
-- Whether the issue happens with a clean Blender configuration
-- Asset type or format involved, if relevant
-- Import or export direction
-- Import format used
-- Export format used
-- Local path structure, when safe to share
-- Whether the issue involves file access, validation, missing files, asset transfer, format conversion, batch-processing, report output, or path handling
-- Whether the format appears disabled or reports a runtime availability message
-
----
-
-## Use Discussions for
-
-- Questions
-- How-to topics
-- Installation help
-- Compatibility checks
-- FAQ
-- Suggestions
-- development feedback
-- Pricing feedback
-- Workflow ideas
-- Format support requests
-- Pipeline use-case discussions
-
----
-
-## Use Issues for
-
-- Confirmed bugs
-- Reproducible compatibility problems
-- Format-specific import/export problems
-- Feature requests
-- Regressions
-- Marketplace or listing-related problems
-- Documentation errors
-
----
-
-## Where to post
-
-Open a **Discussion** for:
-
-- General questions
-- Setup help
-- Workflow advice
-- Suggestions
-- Early feedback
-- Format support requests
-- Pipeline workflow ideas
-
-Open an **Issue** for:
-
-- Confirmed bugs
-- Reproducible compatibility problems
-- Import/export failures
-- Format-specific problems
-- Regressions
-- Feature requests
-- Documentation problems
-
----
-
-## Support policy
-
-This repository is a public support hub.
-
-Do not post:
-
-- Private account details
-- LICENSE keys
-- Payment information
-- Confidential production files
-- Private client files
-- Sensitive system information
-
-If a private file is required to reproduce an issue, please describe the problem first and wait for further instructions.
 
 ---
 
@@ -579,33 +390,37 @@ This add-on is source based, with:
 
 Local file access may be used for:
 
-- Import workflows
-- Export workflows
-- Format-based asset pipelines
-- Source directory scanning
-- Asset transfer
-- Asset validation
-- Asset inspection
-- Local validation reports
-- Local file handling
-- Path-based workflows
-- Asset package preparation
-- Project or asset folder selection
-- Batch-processing workflows
+| Details |
+|---|
+| Import workflows |
+| Export workflows |
+| Format-based asset pipelines |
+| Source directory scanning |
+| Asset transfer |
+| Asset validation |
+| Asset inspection |
+| Local validation reports |
+| Local file handling |
+| Path-based workflows |
+| Asset package preparation |
+| Project or asset folder selection |
+| Batch-processing workflows |
 
 The add-on is intended to work locally inside Blender.
 
 Current package notes:
 
-- Minimum Blender version: 4.2.0
-- Platform currently indicated in package metadata: Windows x64
-- Sidebar tab: `DRH-Asset Pipeline`
-- Panel label: `DRH - Asset Pipeline Studio`
-- Blender category: Import-Export
-- Extension ID: `drh_asset_pipeline_studio`
-- SketchUp import uses bundled Windows native components and is currently packaged for Windows x64.
-- Rhinoceros 3DM import depends on compatible bundled `rhino3dm` wheels for the current Blender Python ABI and platform.
-- Format support may depend on Blender version, available import/export operators, bundled dependencies, Python ABI, and operating system support.
+| Details |
+|---|
+| Minimum Blender version: 4.2.0 |
+| Platform currently indicated in package metadata: Windows x64 |
+| Sidebar tab: `DRH-Asset Pipeline` |
+| Panel label: `DRH - Asset Pipeline Studio` |
+| Blender category: Import-Export |
+| Extension ID: `drh_asset_pipeline_studio` |
+| SketchUp import uses bundled Windows native components and is currently packaged for Windows x64 |
+| Rhinoceros 3DM import depends on compatible bundled `rhino3dm` wheels for the current Blender Python ABI and platform |
+| Format support may depend on Blender version, available import/export operators, bundled dependencies, Python ABI, and operating system support |
 
 ---
 
@@ -615,12 +430,14 @@ This add-on may be available through multiple marketplaces and storefronts after
 
 This GitHub repository remains the central public location for:
 
-- Support
-- Documentation
-- Issue tracking
-- Compatibility reports
-- Public feedback
-- Release notes
+| Details |
+|---|
+| Support |
+| Documentation |
+| Issue tracking |
+| Compatibility reports |
+| Public feedback |
+| Release notes |
 
 ---
 
@@ -631,20 +448,23 @@ This GitHub repository remains the central public location for:
 
 ---
 
-## LICENSE
 
-This repository is distributed under **GPL-3.0-or-later**.
+## Support
+
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/discussions) for setup questions, workflow guidance, and general feedback. Use [GitHub Issues](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, and focused feature requests.
+
+Do not post credentials, payment information, license keys, confidential production files, private client material, or sensitive local paths.
+
+Detailed guidance is available in [SUPPORT.md](SUPPORT.md).
+
+## Support DRH development
+
+Development support is optional. Contributions through [Ko-fi](https://ko-fi.com/pacosalasv) help cover maintenance, Blender compatibility work, documentation, and testing.
+
+## License
+
+This repository is distributed under GPL-3.0-or-later.
 
 ---
 
 <div align="center">
-
-### DRH Add-ons
-
-**Blender tools, updates, and releases.**
-
-Built for clean workflows, practical utilities, and production-friendly Blender setups.
-
-[![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
-
-</div>
