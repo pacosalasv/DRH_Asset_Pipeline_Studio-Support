@@ -6,11 +6,9 @@
 
 **Import, export, auto-fix, validate, and batch-deliver multi-format 3D assets in Blender**
 
-![Status](https://img.shields.io/badge/Status-Development%20On%20Hold-7C3AED?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-00B7FF?style=for-the-badge)
-![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Development%20On%20Hold-7C3AED?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%20x64-334155?style=for-the-badge)
 
-[![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
+[![Development status](https://img.shields.io/badge/Development%20status-View-64748B?style=for-the-badge)](#product-status) [![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add-ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
 </div>
 
@@ -57,19 +55,23 @@ The repository remains available for documentation and feedback while active dev
 
 ## Media
 
-| Preview | Preview |
-|---|---|
-| <img width="420" alt="DRH - Asset Pipeline Studio Screenshot 1" src="docs/media/ScreenShot_01.png" /> | <img width="420" alt="DRH - Asset Pipeline Studio Screenshot 2" src="docs/media/ScreenShot_02.png" /> |
-| <img width="420" alt="DRH - Asset Pipeline Studio Screenshot 3" src="docs/media/ScreenShot_03.png" /> | <img width="420" alt="DRH - Asset Pipeline Studio Screenshot 4" src="docs/media/ScreenShot_04.png" /> |
+Primary product screenshots are shown below. Additional screenshots, when present, remain in `docs/media/`.
+
+<div align="center">
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 01" src="docs/media/ScreenShot_01.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 02" src="docs/media/ScreenShot_02.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 03" src="docs/media/ScreenShot_03.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 04" src="docs/media/ScreenShot_04.png" />
+</div>
 
 ## Product reference
 
 <details>
 <summary>Open detailed feature reference</summary>
 
-## Feature reference
+### Feature reference
 
-### Multi-format pipeline
+#### Multi-format pipeline
 | Details |
 |---|
 | Unified import and export workflow |
@@ -80,7 +82,7 @@ The repository remains available for documentation and feedback while active dev
 | Import/export menu integration |
 | 3D View sidebar workflow panel |
 
-### Supported formats
+#### Supported formats
 | Content Creation & Exchange | Game Engine & Animation Pipelines | CAD, Design & Fabrication | Specialized Data Formats |
 |---|---|---|---|
 | - FBX | - Unreal PSK / PSKX | - Autodesk MAX | - OpenVDB |
@@ -91,7 +93,7 @@ The repository remains available for documentation and feedback while active dev
 | - PLY |  | - SKP | - 3DXML |
 |  |  | - 3DM | - 3MF |
 
-### Export workflow
+#### Export workflow
 | Details |
 |---|
 | Output directory selection |
@@ -106,7 +108,7 @@ The repository remains available for documentation and feedback while active dev
 | Unique path handling for export outputs |
 | Cleanup and transform controls for supported formats |
 
-### Import workflow
+#### Import workflow
 | Details |
 |---|
 | Source directory selection |
@@ -125,7 +127,7 @@ The repository remains available for documentation and feedback while active dev
 | Collection routing to a custom collection |
 | Manual import inspector option in preferences |
 
-### Pipeline presets
+#### Pipeline presets
 | Details |
 |---|
 | 3D Print preset |
@@ -142,7 +144,7 @@ The repository remains available for documentation and feedback while active dev
 | Sync enabled formats |
 | Sync import workflow |
 
-### Validation and inspection
+#### Validation and inspection
 | Details |
 |---|
 | Export sanity checker workflow |
@@ -156,7 +158,7 @@ The repository remains available for documentation and feedback while active dev
 | Local QA/report output |
 | Findings with severity, category, object, message, fixability, fix ID, and details |
 
-### Batch and handoff
+#### Batch and handoff
 | Details |
 |---|
 | Batch export workflow |
@@ -167,7 +169,7 @@ The repository remains available for documentation and feedback while active dev
 | Format-specific delivery preparation |
 | Local path and folder-based exchange |
 
-### Package and runtime
+#### Package and runtime
 | Details |
 |---|
 | Source-based Blender extension package |
@@ -183,20 +185,15 @@ The repository remains available for documentation and feedback while active dev
 
 | Resource | Link |
 |---|---|
-| User manual | [User manual](docs/manual/user-manual.pdf) |
-| Support guide | [Support guide](SUPPORT.md) |
-| Manual changelog | [Manual changelog](docs/manual/manual-changelog.md) |
-| Product changelog | [Product changelog](CHANGELOG.md) |
-| GitHub Discussions | [GitHub Discussions](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/discussions) |
-| GitHub Issues | [GitHub Issues](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues/new/choose) |
+| Support guide | [SUPPORT.md](SUPPORT.md) |
+| User manual | [PDF manual](docs/manual/user-manual.pdf) |
+| Repository changelog | [CHANGELOG.md](CHANGELOG.md) |
+| Issues | [Open or review issues](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/issues) |
+| Discussions | [Ask questions and share feedback](https://github.com/pacosalasv/DRH_Asset_Pipeline_Studio-Support/discussions) |
 
-Use **Discussions** for questions, setup help, workflow guidance, and general feedback. Use **Issues** for reproducible bugs, regressions, compatibility problems, documentation errors, and focused feature requests.
+## Support development
 
-Before posting, review [SUPPORT.md](SUPPORT.md) for the shared DRH support format and public-information guidance.
-
-## Support DRH development
-
-If this project or another free DRH tool saves you time, optional Ko-fi support helps fund maintenance, Blender compatibility work, documentation, testing, and continued development.
+Ko-fi support is optional. Contributions help fund maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
@@ -204,13 +201,13 @@ If this project or another free DRH tool saves you time, optional Ko-fi support 
   </a>
 </div>
 
-## DRH ecosystem
+## Ecosystem
 
 | Destination | Link |
 |---|---|
-| DRH Add-ons Hub | [Catalog, roadmap, and product status](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Paco Salas \| DRH | [GitHub profile](https://github.com/pacosalasv) |
-| Support development | [Ko-fi](https://ko-fi.com/pacosalasv) |
+| DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
+| Paco Salas | DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
 
 ## License
 
