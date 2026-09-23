@@ -20,21 +20,7 @@ DRH - Asset Pipeline Studio is a Blender import/export and pipeline utility desi
 
 It is intended for technical artists, asset creators, game artists, environment artists, marketplace creators, CAD/ArchViz users, BlendKit creators, pipeline-focused users, and small teams that need cleaner asset handoff, repeatable export setup, local file scanning, batch-oriented exchange, and format-aware validation.
 
-## Product status
-
-| Item | Details |
-|---|---|
-| Status | **Development On Hold** |
-| Version | 1.0.0 |
-| Blender | 4.2+ |
-| Platforms | Windows x64 |
-| Availability | Development is currently on hold; no public download is promoted from this repository. |
-| Distribution | Support, documentation, and development history. |
-| Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
-
-The repository remains available for documentation and feedback while active development is paused.
-
-## Capabilities
+## Key features
 
 | Details |
 |---|
@@ -53,23 +39,12 @@ The repository remains available for documentation and feedback while active dev
 | Runtime-aware format availability handling |
 | Local-only workflow with no external service or account requirement for normal operation |
 
-## Media
-
-Primary product screenshots are shown below. Additional screenshots, when present, remain in `docs/media/`.
-
-<div align="center">
-  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 01" src="docs/media/ScreenShot_01.png" />
-  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 02" src="docs/media/ScreenShot_02.png" />
-  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 03" src="docs/media/ScreenShot_03.png" />
-  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 04" src="docs/media/ScreenShot_04.png" />
-</div>
-
-## Product reference
+## Detailed features
 
 <details>
-<summary>Open detailed feature reference</summary>
+<summary>Open detailed features</summary>
 
-### Feature reference
+### Feature details
 
 #### Multi-format pipeline
 | Details |
@@ -181,6 +156,31 @@ Primary product screenshots are shown below. Additional screenshots, when presen
 
 </details>
 
+## Product status
+
+| Item | Details |
+|---|---|
+| Status | **Development On Hold** |
+| Version | 1.0.0 |
+| Blender | 4.2+ |
+| Platforms | Windows x64 |
+| Availability | Development is currently on hold; no public download is promoted from this repository. |
+| Distribution | Support, documentation, and development history. |
+| Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
+
+The repository remains available for documentation and feedback while active development is paused.
+
+## Media
+
+Product screenshots:
+
+<div align="center">
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 01" src="docs/media/ScreenShot_01.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 02" src="docs/media/ScreenShot_02.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 03" src="docs/media/ScreenShot_03.png" />
+  <img width="420" alt="DRH - Asset Pipeline Studio ScreenShot 04" src="docs/media/ScreenShot_04.png" />
+</div>
+
 ## Documentation and support
 
 | Resource | Link |
@@ -206,7 +206,8 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 | Destination | Link |
 |---|---|
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Paco Salas | DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Paco Salas | DRH | [Official site](https://pacosalasv.blogspot.com/) |
+| BlendKit | [DRH Blender downloads](https://www.blendkit.com/?query=author_id:205846) |
 | Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
 
 ## License
